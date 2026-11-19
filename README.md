@@ -4,14 +4,15 @@
 
 # Halo: Combat Evolved for the PS Vita
 
-**A native PlayStation Vita port of Halo: Combat Evolved, built from the decompilation of the Xbox game.**
+**A personal development project by Wonka15, exploring and improving Halo: Combat Evolved on real PlayStation Vita hardware.**
+
+This repository is an independent development copy based on the [original Halo CE Vita project](https://github.com/BirchWoodGod/halo-ce-vita). It is not the upstream project; original releases and credits remain attributed to their authors.
 
 [![Latest release](https://img.shields.io/github/v/release/BirchWoodGod/halo-ce-vita?label=latest&color=2ea44f)](https://github.com/BirchWoodGod/halo-ce-vita/releases/latest)
 [![Beta](https://img.shields.io/github/v/release/BirchWoodGod/halo-ce-vita?include_prereleases&label=beta&color=d29922)](https://github.com/BirchWoodGod/halo-ce-vita/releases)
 [![Downloads](https://img.shields.io/github/downloads/BirchWoodGod/halo-ce-vita/total?color=blue)](https://github.com/BirchWoodGod/halo-ce-vita/releases)
 [![License: GPL-3.0-only](https://img.shields.io/badge/license-GPL--3.0--only-orange)](LICENSE)
 [![Platform: PS Vita](https://img.shields.io/badge/platform-PS%20Vita%20%2F%20PS%20TV-003791)](#requirements)
-[![Discord](https://img.shields.io/badge/Discord-join%20the%20server-5865F2?logo=discord&logoColor=white)](https://discord.gg/Ed7sbCgAF5)
 
 [**Download**](https://github.com/BirchWoodGod/halo-ce-vita/releases) ·
 [Install](#install) ·
@@ -20,8 +21,7 @@
 [Controls](#controls) ·
 [Performance](#performance) ·
 [Roadmap](ROADMAP.md) ·
-[Report a problem](#reporting-a-crash-or-a-problem) ·
-[Discord](https://discord.gg/Ed7sbCgAF5)
+[Report a problem](#reporting-a-crash-or-a-problem)
 
 <img src="docs/screenshots/warthog-beach.png" alt="A Warthog on The Silent Cartographer's beach, on a PS Vita" width="90%">
 
@@ -51,11 +51,11 @@ processor, and its Direct3D rendering is translated to the Vita's GPU.
 > has (see [Halo PC files](#halo-pc-files)).
 
 > [!WARNING]
-> **Official sources.** The only official downloads are the
-> [releases on this GitHub repository](https://github.com/BirchWoodGod/halo-ce-vita/releases),
-> published by **BirchWoodGod**. VPKs, "updates", mods or donation requests
-> offered anywhere else under this project's or the developer's name are not
-> from me. If in doubt, check that a build is listed on the releases page.
+> **Upstream releases and attribution.** The original project and its official
+> releases are maintained by **BirchWoodGod** at the
+> [upstream repository](https://github.com/BirchWoodGod/halo-ce-vita).
+> Builds produced from this personal development copy will be identified
+> separately and will retain the original project's license and credits.
 
 <div align="center">
 
@@ -770,12 +770,12 @@ Quit** from the pause menu is the safest way to stop.
 
 ## Reporting problems
 
-Questions and finding people to play with: the
-[Discord server](https://discord.gg/Ed7sbCgAF5).
+For questions or bug reports about this development copy, use the
+[Issues tab in this repository](https://github.com/Wonka15/Halo-Vita-1.0-/issues).
 
 ### Reporting a crash or a problem
 
-Open an [issue](https://github.com/BirchWoodGod/halo-ce-vita/issues) with
+Open an [issue](https://github.com/Wonka15/Halo-Vita-1.0-/issues) with
 the version (the first line of `halo.log`, or the settings panel's Controls,
 Advanced), what you were doing (level, place, weapon, vehicle; for
 multiplayer the mode: Online, Same Wi-Fi, Ad hoc or Co-op), and these files
@@ -921,8 +921,8 @@ Thank you to everyone who played the releases, betas and test builds on
 their own Vitas and reported what they found, with crash dumps, logs, saves
 and screenshots:
 [BlazeRed17](https://github.com/BlazeRed17), [ItsSamStone](https://github.com/ItsSamStone), [Benixio](https://github.com/Benixio), [DuckiEXP](https://github.com/DuckiEXP), [5ackwood](https://github.com/5ackwood), [Andiweli](https://github.com/Andiweli), [maler82](https://github.com/maler82), [rbxshh](https://github.com/rbxshh), [nxble6](https://github.com/nxble6), [LordLavaLamp](https://github.com/LordLavaLamp), [KiddRwxSsj](https://github.com/KiddRwxSsj), [GrookyGamez](https://github.com/GrookyGamez), [aguy4809-art](https://github.com/aguy4809-art), [iamayod](https://github.com/iamayod); **CallumBlackGames**, for the first two-Vita multiplayer video; and
-**psvita_dude** and the testers on Discord. Many of the fixes in 1.0.1 to
-1.1.0 exist because of your reports.
+**psvita_dude** and other community testers. Many of the fixes in 1.0.1 to
+1.1.0 exist because of their reports.
 
 Libraries and tools: [VitaSDK](https://vitasdk.org),
 [SDL3](https://github.com/libsdl-org/SDL) (desktop builds),
