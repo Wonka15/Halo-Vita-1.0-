@@ -4,7 +4,7 @@
 
 # Halo: Combat Evolved for the PS Vita
 
-**A personal development project by Wonka15, exploring and improving Halo: Combat Evolved on real PlayStation Vita hardware.**
+**Wonka15's independent development edition of Halo: Combat Evolved for PlayStation Vita — focused on learning, experimentation, performance research, and real-hardware testing.**
 
 This repository is an independent development copy based on the [original Halo CE Vita project](https://github.com/BirchWoodGod/halo-ce-vita). It is not the upstream project; original releases and credits remain attributed to their authors.
 
@@ -56,6 +56,33 @@ processor, and its Direct3D rendering is translated to the Vita's GPU.
 > [upstream repository](https://github.com/BirchWoodGod/halo-ce-vita).
 > Builds produced from this personal development copy will be identified
 > separately and will retain the original project's license and credits.
+
+
+## Development direction — Wonka15
+
+This branch is my personal workspace for exploring what can be improved in the
+Halo CE Vita experience. The original port and its contributors remain
+credited; changes made here will be documented separately.
+
+My priorities are:
+
+- **Real-hardware first:** test changes on an actual PS Vita rather than
+  treating emulator results as proof.
+- **Vita model comparisons:** record results separately for PS Vita Fat and
+  Slim hardware whenever both are tested.
+- **Performance research:** measure frame rate, frame pacing, loading,
+  resolution behavior, and the impact of graphics settings where practical.
+- **Careful experimentation:** keep changes traceable, explain trade-offs, and
+  avoid presenting an idea as a working feature until it has been tested.
+- **A clearer experience:** improve setup instructions, usability, and
+  project documentation as the work develops.
+
+### Testing and benchmark policy
+
+No performance improvement or compatibility claim is considered confirmed
+until it has been tested and the test conditions are recorded. When available,
+benchmark notes should identify the Vita model, build, settings, test area,
+and measurement method.
 
 <div align="center">
 
