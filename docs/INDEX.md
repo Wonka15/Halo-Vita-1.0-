@@ -1,6 +1,6 @@
 # Documentation index
 
-This folder contains player guidance, engineering notes, audits, and historical research. Start with the topic you need rather than reading every file.
+This folder contains player guidance, engineering notes, audits, and historical research. Start with the topic you need rather than reading every file. The documentation tree is intentionally an archive: on this branch snapshot it contains 2,172 files, including 2,128 object-matching log files. You do not need to browse those one by one.
 
 ## Player and project documentation
 
@@ -18,7 +18,7 @@ This folder contains player guidance, engineering notes, audits, and historical 
 - [Exact-match acceleration playbook](exact_match_acceleration_playbook.md) — workflow for accelerating exact-match work.
 - [Common constants](common_constants.md) — collected constants and references.
 - [Assertions](assertions.md) — assertion-related notes.
-- [Object matching logs](object_matching_logs/) — supporting matching records.
+- [Object matching logs](object_matching_logs/) — a large evidence archive of per-object and per-function ledgers. **Do not start by opening this folder.** First read the [object matching log guide](object_matching_logs/README.md), then use the [reconciliation queue](reconciliation_queue_20260907.md) to find the relevant work item.
 - [Campaign prompts](campaign_prompts/) — prompt and task artifacts.
 - [Superpowers notes](superpowers/) — supporting workflow material.
 
