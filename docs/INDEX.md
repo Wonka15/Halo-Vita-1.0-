@@ -48,7 +48,7 @@ These are specialist or historical records. They are retained for traceability; 
 
 ## Research workspace
 
-The [`research/` folder](../research/) contains experiment-specific folders, reconstruction outputs, and supporting artifacts. Its contents are intentionally kept separate from the main player documentation.
+The [research index](../research/README.md) is the entry point for experiment folders, reconstruction outputs, and supporting artifacts. It groups the large dated workspaces and focused technical investigations without moving or deleting the underlying evidence.
 
 ## Where to begin
 
