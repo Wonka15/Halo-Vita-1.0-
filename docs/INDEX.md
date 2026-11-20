@@ -4,9 +4,24 @@ A short map of the documentation in this repository. The root
 [README](../README.md) is the project landing page; this page is the directory
 for deeper material.
 
+## Color-coded technical guides
+
+The [Engine guide](ENGINE_GUIDE.md) is the beginner-friendly source map.
+It uses a consistent color key:
+
+| Color | Category | Start here |
+| --- | --- | --- |
+| 🔵 Blue | Graphics and rendering | `d3d8_gxm.c`, `vita_gxm.c`, `vita_gxm.h` |
+| 🟣 Purple | Shaders and visual effects | `nv2a_vsh_cg.c`, `nv2a_psh_cg.c`, `vita_shader_cache.c` |
+| 🟢 Green | Memory, textures, and assets | `vita_textures.c`, `vgxm_memory.h`, `vita_memory_watch.c` |
+| 🟠 Orange | CPU and performance | `vita_cpu.c`, `vita_clocks.c`, `dynamic_resolution.c` |
+| 🔷 Teal | Input, audio, and networking | `vita_controls.c`, `vita_input.c`, `vita_net.c` |
+| ⚪ Gray | Build, testing, and reference | platform README, roadmap, legal and license files |
+
 ## Getting oriented
 
 - [Repository overview](../README.md) — what this fork is and where to begin.
+- [Engine guide](ENGINE_GUIDE.md) — how the major Vita systems fit together.
 - [Vita platform notes](../port/vita/README.md) — Vita-specific architecture,
   build details, runtime behavior, and testing.
 - [Roadmap](../ROADMAP.md) — inherited milestones and recorded future ideas.
@@ -17,17 +32,6 @@ for deeper material.
   preserved from before the Wonka15 landing-page cleanup. Check its release
   links and version-specific instructions against the relevant upstream
   release before relying on them.
-
-## Engine areas
-
-| Area | Where to look |
-| --- | --- |
-| Vita graphics backend | `port/vita/host/vita_gxm.c` |
-| Direct3D 8 compatibility layer | `port/vita/platform/d3d8_gxm.c` |
-| Vita graphics interface | `port/vita/include/vita_gxm.h` |
-| Vertex shader translation | `port/vita/platform/nv2a_vsh_cg.c` |
-| Pixel shader translation | `port/vita/platform/nv2a_psh_cg.c` |
-| Vita-specific overview | [port/vita/README.md](../port/vita/README.md) |
 
 ## Research and engineering notes
 
@@ -51,7 +55,8 @@ verification and its current status.
 ## Suggested reading order
 
 1. Read the root README.
-2. Read the Vita platform README.
-3. Open the engine files listed above to follow a specific subsystem.
-4. Use the research notes for deeper investigations.
-5. Check the roadmap before treating an idea as implemented.
+2. Read the [color-coded engine guide](ENGINE_GUIDE.md).
+3. Read the Vita platform README.
+4. Open source files from one color category at a time.
+5. Use research notes for deeper investigations.
+6. Check the roadmap before treating an idea as implemented.
